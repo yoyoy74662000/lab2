@@ -1,7 +1,7 @@
 package Products;
 import enums.Type;
 
-public class Vehicle {
+public abstract class Vehicle {
     protected String vin;
     protected int range;
     protected double basePrice;
