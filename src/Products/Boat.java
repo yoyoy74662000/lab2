@@ -1,8 +1,9 @@
 package Products;
+
 import enums.BoatType;
 import exceptions.BadInputException;
 
-public class Boat extends Vehicle{
+public class Boat extends Vehicle {
     public Boat(BoatType type, int range, double luxT, String vCode, String vin, double bPrice, boolean limit) {
 
         this.type = type;
@@ -26,13 +27,13 @@ public class Boat extends Vehicle{
                 (this.type + " with VIN " + this.vin + " is available to rent. This beauty has a range of " + this.range + " and only costs $" + getCost());
 
     }
+
     @Override
-    public void determineRange(int r){
+    public void determineRange(int r) {
         try {
-            if(r > 0) this.range = r;
+            if (r > 0) this.range = r;
             else throw new BadInputException("Invalid Range.");
-        }
-        catch(BadInputException ex) {
+        } catch (BadInputException ex) {
             ex.printStackTrace();
         }
     }

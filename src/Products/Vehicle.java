@@ -1,4 +1,5 @@
 package Products;
+
 import enums.Type;
 
 public abstract class Vehicle {
@@ -18,7 +19,7 @@ public abstract class Vehicle {
 
     //get the cost of the vehicle, same formula for all kinds
     public double getCost() {
-        return (((Double.valueOf(vin) / Double.valueOf(vehicleCode)) * basePrice) / range ) + luxTax;
+        return (((Double.valueOf(vin) / Double.valueOf(vehicleCode)) * basePrice) / range) + luxTax;
     }
 
     public String getVin() {

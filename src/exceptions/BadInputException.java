@@ -1,7 +1,7 @@
 package exceptions;
 
-public class BadInputException extends Exception{
-    public BadInputException(String s){
+public class BadInputException extends Exception {
+    public BadInputException(String s) {
         super(s);
     }
 }
