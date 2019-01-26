@@ -5,3 +5,6 @@ create a BoatType enums<br>
 create a abstract class Automobile<br>
 create a class Boat<br>
 create a class exception<br>
+create a class CarType<br>
+create a class DieselAuto<br>
+create a class ElectricAuto<br>
