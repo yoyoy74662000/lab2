@@ -8,7 +8,15 @@ public class ElectricAuto extends Automobile {
     private boolean isTelsla;
 
 
-    public ElectricAuto(String v, Manufacture manufacture, int range, String color, double basePrice, String vCode, double luxT, int numOfBatter, boolean isTel) {
+    public ElectricAuto(String v,
+                        Manufacture manufacture,
+                        int range,
+                        String color,
+                        int numOfBatter,
+                        boolean isTel,
+                        double basePrice,
+                        String vCode,
+                        double luxT){
         super(v, manufacture, range, color, basePrice, vCode, luxT);
 
         //type specific

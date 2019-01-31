@@ -7,7 +7,15 @@ public class DieselAuto extends Automobile {
     private int numberOfWheels;
     private int numberOfCylinders;
 
-    public DieselAuto(String v, Manufacture manufacture, int range, String color, double basePrice, String vCode, double luxT, int numberOfWheels, int numberOfCylinders) {
+    public DieselAuto(String v,
+                      Manufacture manufacture,
+                      int range,
+                      String color,
+                      int numberOfWheels,
+                      int numberOfCylinders,
+                      double basePrice,
+                      String vCode,
+                      double luxT){
         super(v, manufacture, range, color, basePrice, vCode, luxT);
 
         //type specific

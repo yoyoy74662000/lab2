@@ -3,8 +3,16 @@ import enums.Manufacture;
 import enums.CarType;
 
 public class SemiTruck extends DieselAuto{
-    public SemiTruck(String v, Manufacture manufacture, int range, String color, double basePrice, String vCode, double luxT, int numberOfWheels, int numberOfCylinders) {
-        super(v, manufacture, range, color, basePrice, vCode, luxT, numberOfWheels, numberOfCylinders);
+    public SemiTruck(String v,
+                     Manufacture manufacture,
+                     int range,
+                     String color,
+                     int numberOfWheels,
+                     int numberOfCylinders,
+                     double basePrice,
+                     String vCode,
+                     double luxT) {
+        super(v, manufacture, range, color, numberOfWheels, numberOfCylinders, basePrice, vCode, luxT);
         //type specific
         this.specialLicenseRequired = true;
         this.limitable = true;
