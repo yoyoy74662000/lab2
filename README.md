@@ -10,3 +10,4 @@ create a class DieselAuto<br>
 create a class ElectricAuto<br>
 create a class SemiTruck<br>
 create a calculator<br>
+done finished
