@@ -8,3 +8,4 @@ create a class exception<br>
 create a class CarType<br>
 create a class DieselAuto<br>
 create a class ElectricAuto<br>
+create a class SemiTruck<br>
